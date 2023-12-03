@@ -8,7 +8,7 @@ let myProfile = {
         'Moimoi', 'Fufu', 'Abacha', 'RICE', 'BEANS', 'PLAINTAIN','Tuwo', 'OKRA'
     ],
     hobbies: [
-        'I love Football', 'Reading great novels', 'Watching family programs', 'Playing with my kids', 'Chatting with AI'
+        'I love Football', 'Reading great novels', 'Watching family programs', 'Playing with my kids', 'Chatting with friends'
     ],
 
     placesLived: [
