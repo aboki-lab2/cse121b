@@ -1,0 +1,34 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assured Supermat</title>
+    <link rel="stylesheet" href="styles/project.css">
+  </head>
+  <body>
+    <header>
+      <h1>ASSURED SHOPPING PLAZA. GET ALL YOUR SEAFOODS SUCH AS CRAFISH, FRESH FISH AND MORE</h1>
+    </header>
+    <main>
+      <!-- User input will be displayed here, while the div elements allows the printing of the invoice after the user input -->
+      <form>
+        <label for="item-name">Item Name</label>
+        <input type="text" id="item-name" />
+        <label for="item-price">Item Price</label>
+        <input type="number" id="item-price" />
+        <label for="item-quantity">Item Quantity</label>
+        <input type="number" id="item-quantity" />
+        <button type="submit" id="submit-button">Submit</button>
+        <label for="user-name">Your Name:</label>
+<input type="text" id="user-name">
+      </form>
+      <div id="invoice"></div>
+      <button id="print-button">Print Invoice</button>
+    </main>
+    <footer>
+        &copy;2023| Assured Shooping Plaza | Experience the best of shopping
+      </footer>
+    <script src="scripts/project.js"></script>
+  </body>
+</html>

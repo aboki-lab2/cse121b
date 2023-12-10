@@ -12,7 +12,7 @@ let displayTemples = (temples) => {
      // Process each temple in the temple array using a forEach method and do the following for each temple item
     temples.forEach(temple => {
         let articleElement = document.createElement('article'); // creating <article> in html
-        let h3Element = document.createElement('h3'); // creating <h3> in html
+        let h3Element = document.createElement('h3'); // create the tag <h3> in html
         h3Element.textContent = temple.templeName;  
         let imageElement = document.createElement('img');
         imageElement.src = temple.imageUrl;
@@ -40,7 +40,7 @@ const reset = () => {
 /* sortBy Function */
 const sortBy = () => {
     reset();
-    const filter = document.querySelector("#sortBy").value; // The sorting is done
+    const filter = document.querySelector("#sortBy").value; // The sorting is done using the id sortby
 
     switch (filter) {
         case "utah":

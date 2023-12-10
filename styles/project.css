@@ -1,0 +1,65 @@
+
+    
+      /* Use a simple layout with a header, a main, and a footer */
+      header {
+        background-color: rgb(38, 9, 202);
+        padding: 20px;
+        text-align: center;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+      }
+
+      footer {
+        background-color: #444;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    
+
+      /* Style the form elements */
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      label {
+        margin: 10px;
+      }
+
+      input {
+        width: 200px;
+      }
+
+      button {
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+      }
+
+      /* Style the invoice elements */
+      #invoice {
+        border: 1px solid rgb(34, 16, 117);
+        padding: 20px;
+      }
+
+      #invoice-table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #invoice-table th,
+      #invoice-table td {
+        border: 15px solid rgb(65, 8, 172);
+        padding: 10px;
+        text-align: center;
+      }
+    
